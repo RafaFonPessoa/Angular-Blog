@@ -1,0 +1,18 @@
+<div class="container__small-card">
+    <div class="container__small-content">
+        <div class="small-card__photo">
+            <img src={{photoCover}}
+                height="200px">
+        </div>
+
+        <div class="small-card__title">
+            <a [routerLink]="['content',id]">
+                <h1>{{cardTitle}}</h1>
+            </a>
+        </div>
+    </div>
+
+    <div class="container__small-card__separator">
+        <hr>
+    </div>
+</div>
